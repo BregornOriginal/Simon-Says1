@@ -1,0 +1,114 @@
+#body {
+  background-color: rgb(53, 5, 5);
+}
+
+#box-container {
+  position: absolute;
+  left: 150px;
+  top: 30px;
+}
+#button-blue {
+    background-color: darkblue;
+    width: 200px;
+    height: 400px;
+    border-radius: 200px 260px;
+    border-style: outset;
+    border-top-style: outset;
+    border-right-style: outset;
+    border-bottom-style: outset;
+    border-left-style: outset;
+}
+#base-game {
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 10px 81px rgb(122 86 174 / 91%), 0 6px 6px rgb(0 0 0);
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  position: absolute;
+  left: 910px;
+  top: 185px;
+}
+#color-blue {
+  width: 200px;
+  height: 400px;
+  border-radius: 200px 260px;
+  border-right: 80px solid transparent;
+  border-left: 70px solid transparent;
+  border-top: 100px solid #5b81c9;
+  transform: rotate(86deg);
+  position: absolute;
+  left: 928px;
+  top: 500px;
+}
+
+#color-red {
+  width: 200px;
+  height: 400px;
+  border-radius: 200px 260px;
+  border-right: 80px solid transparent;
+  border-left: 70px solid transparent;
+  border-top: 100px solid #943232;
+  transform: rotate(176deg);
+  position: absolute;
+  left: 941px;
+  top: 127px;
+}
+
+#color-yellow {
+  width: 200px;
+  height: 400px;
+  border-radius: 200px 260px;
+  border-right: 80px solid transparent;
+  border-left: 70px solid transparent;
+  border-top: 100px solid #9ca34d;
+  transform: rotate(266deg);
+  position: absolute;
+  left: 992px;
+  top: 141px;
+}
+
+#color-green {
+  width: 200px;
+  height: 400px;
+  border-radius: 200px 260px;
+  border-right: 80px solid transparent;
+  border-left: 70px solid transparent;
+  border-top: 100px solid #116815;
+  transform: rotate(356deg);
+  position: absolute;
+  left: 980px;
+  top: 192px;
+}
+
+#start-game {
+  background-color: rgb(105, 95, 95);
+  width: 207px;
+  height: 206px;
+  border-radius: 50%;
+  position: absolute;
+  left: 1032px;
+  top: 307px;
+}
+
+#name-game {
+  font-size: 30px;
+  width: 160px;
+  height: 20px;
+  position: absolute;
+  left: 1032px;
+  top: 307px;
+  font-family: "Press Start 2P", cursive;
+  position: absolute;
+  left: 30px;
+  top: 70px;
+}
+
+#start-button {
+  box-shadow: -1px -11px 20px 0px rgb(73 0 0 / 20%), 0 6px 6px rgb(0 0 0 / 23%);
+  height: 50px;
+  width: 110px;
+  border-radius: 40% 40% 65% 65%;
+  position: absolute;
+  left: 48px;
+  top: 30px;
+}
