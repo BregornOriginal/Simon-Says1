@@ -12,23 +12,19 @@
     <link rel="stylesheet"type="text/css"media="screen"href="simon-says.css"/>
   </head>
   <body id="body">
-    <form>
-        <button id="button-blue"></button>
-        <div></div>
-      <div id="box-container">
-        <div id="base-game"></div>
-        <div id="color-blue"></div>
-        <div id="color-red"></div>
-        <div id="color-yellow"></div>
-        <div id="color-green"></div>
-        <div id="start-game">
-          <button id="start-button">START!</button>
-          <label for="name-game">
-            <p id="name-game" type="text">SIMON</p>
-          </label>
-        </div>
+    <div id="base-game">
+          <button id="button-color" class="blue" type="reset"></button>
+          <button id="button-color" class="red"></button>
+          <button id="button-color" class="yellow"></button>
+          <button id="button-color" class="green"></button>
+          <div id="start-game">
+            <button id="start-button">START!</button>
+            <label for="name-game">
+              <p id="name-game" type="text">SIMON</p>
+            </label>
+          </div>
       </div>
-    </form>
+    </div>
     <script src="simon-says.js"></script>
   </body>
 </html>
