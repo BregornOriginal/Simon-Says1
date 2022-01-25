@@ -1,0 +1,88 @@
+#body {
+  max-width: 100%;
+  height: auto;
+  background-color: rgb(53, 5, 5);
+}
+#button-color {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  border-right: 200px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 5px solid transparent;
+  box-shadow: -1px -11px 20px 0px #faf6f6, 0 6px 6px rgb(253, 253, 253);
+  border-top-left-radius: 600px;
+  border-top-right-radius: 600px;
+}
+
+#button-color.blue {
+  left: 280px;
+  top: 185px;
+  background: #3f4c86;
+  border-top: 60px solid #3f4c86;
+  transform: rotate(90deg);
+}
+
+#base-game {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 910px;
+  top: 185px;
+  width: 450px;
+  height: 450px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 10px 81px rgb(122 86 174 / 91%), 0 6px 6px rgb(0 0 0);
+  border-radius: 50%;
+}
+
+#button-color.red {
+  background: #9b504e;
+  border-top: 60px solid #9b504e;
+  left: -45px;
+  top: 185px;
+  transform: rotate(270deg);
+}
+
+#button-color.yellow {
+  background: #9d9e56;
+  border-top: 60px solid #9d9e56;
+  left: 120px;
+  top: 25px;
+  transform: rotate(0deg);
+}
+
+#button-color.green {
+  left: 120px;
+  top: 340px;
+  background: #5cb85c;
+  border-top: 60px solid #5cb85c;
+  transform: rotate(180deg);
+}
+
+#start-game {
+  background-color: rgb(105, 95, 95);
+  width: 207px;
+  height: 206px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#name-game {
+  position: absolute;
+  left: 30px;
+  top: 90px;
+  font-size: 30px;
+  font-family: "Press Start 2P", cursive;
+}
+
+#start-button {
+  position: absolute;
+  left: 48px;
+  top: 30px;
+  height: 50px;
+  width: 110px;
+  box-shadow: -1px -11px 20px 0px rgb(73 0 0 / 20%), 0 6px 6px rgb(0 0 0 / 23%);
+  border-radius: 40% 40% 65% 65%;
+}
