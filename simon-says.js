@@ -24,7 +24,7 @@ handlerGame = () => {
     const $colors = document.querySelectorAll("#button-color");
     const cpuColor = Math.floor(Math.random() * $colors.length);
     console.log(cpuColor);
-    cpu.push(cpuColor);
+    cpu.push($colors[cpuColor]);
     console.log(cpu);
     lightingCpuColor();
 };
