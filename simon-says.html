@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html id="html">
   <head>
     <link
       href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
@@ -12,11 +12,13 @@
     <link rel="stylesheet"type="text/css"media="screen"href="simon-says.css"/>
   </head>
   <body id="body">
+    <p id="cpu-turn" class="">ATTENTION: The cpu it's playing</p>
+    <p id="player-turn" class="">Now is you turn</p>
     <div id="base-game">
-          <button id="button-color" class="blue" type="reset"></button>
-          <button id="button-color" class="red"></button>
-          <button id="button-color" class="yellow"></button>
-          <button id="button-color" class="green"></button>
+          <button id="button-color" name ="blue" class="button-color blue" type="reset"></button>
+          <button id="button-color" name ="red" class="button-color red"></button>
+          <button id="button-color" name ="yellow" class="button-color yellow"></button>
+          <button id="button-color" name ="green" class="button-color green"></button>
           <div id="start-game">
             <button id="start-button">START!</button>
             <label for="name-game">
