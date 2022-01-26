@@ -10,16 +10,20 @@
   border-right: 200px solid transparent;
   border-bottom: 20px solid transparent;
   border-left: 5px solid transparent;
-  box-shadow: -1px -11px 20px 0px #faf6f6, 0 6px 6px rgb(253, 253, 253);
+  box-shadow: -1px -11px 20px 0px rgb(250, 246, 246),
+    0 6px 6px rgb(253, 253, 253);
   border-top-left-radius: 600px;
   border-top-right-radius: 600px;
+  opacity: 0.5;
+  transition: 250ms;
+
 }
 
 #button-color.blue {
   left: 280px;
   top: 185px;
-  background: #3f4c86;
-  border-top: 60px solid #3f4c86;
+  background: rgb(0, 47, 255);
+  border-top: 60px solid rgb(0, 47, 255);
   transform: rotate(90deg);
 }
 
@@ -38,16 +42,16 @@
 }
 
 #button-color.red {
-  background: #9b504e;
-  border-top: 60px solid #9b504e;
+  background: rgb(255, 8, 0);
+  border-top: 60px solid rgb(255, 8, 0);
   left: -45px;
   top: 185px;
   transform: rotate(270deg);
 }
 
 #button-color.yellow {
-  background: #9d9e56;
-  border-top: 60px solid #9d9e56;
+  background: rgb(251, 255, 0);
+  border-top: 60px solid rgb(251, 255, 0);
   left: 120px;
   top: 25px;
   transform: rotate(0deg);
@@ -56,8 +60,8 @@
 #button-color.green {
   left: 120px;
   top: 340px;
-  background: #5cb85c;
-  border-top: 60px solid #5cb85c;
+  background: rgb(0, 255, 0);
+  border-top: 60px solid rgb(0, 255, 0);
   transform: rotate(180deg);
 }
 
@@ -85,4 +89,37 @@
   width: 110px;
   box-shadow: -1px -11px 20px 0px rgb(73 0 0 / 20%), 0 6px 6px rgb(0 0 0 / 23%);
   border-radius: 40% 40% 65% 65%;
+}
+
+/* .color {
+  opacity: 0.6;
+  transition: 250ms;
+} */
+
+#cpu-turn {
+  color: rgb(255, 0, 200);
+  font-family: "Press Start 2P", cursive;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  display: none;
+
+}
+
+#player-turn {
+  color: rgb(255, 166, 0);
+  font-family: "Press Start 2P", cursive;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  display: none;
+
+}
+
+.active {
+  opacity: 1;
 }
